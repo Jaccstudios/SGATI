@@ -1,0 +1,11 @@
+[package]
+name = "sgati"
+version = "0.0.1"
+edition = "2024.beta" # Opcional pero recomendado para nuevas versiones de Sui CLI
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+# Alias para la dirección donde se publicará el módulo
+sgati_addr = "0x0"
