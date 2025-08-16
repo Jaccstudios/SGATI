@@ -2,6 +2,8 @@
 name = "sgati"
 version = "0.0.1"
 edition = "2024.beta" # Opcional pero recomendado para nuevas versiones de Sui CLI
+license = "MIT"
+author = {name = Julio Arturo Córdova Cú, email = "juliocc817@gmail.com"}
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
